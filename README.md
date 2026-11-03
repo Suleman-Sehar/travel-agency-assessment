@@ -1,13 +1,17 @@
 # LuxTravel — Premium Travel Agency Website
 
+## 🔗 Live Links
+- **🌐 Live Demo:** https://travel-agency-assessment.vercel.app
+- **📁 GitHub Repo:** https://github.com/Suleman-Sehar/travel-agency-assessment
+
 A complete Next.js 14+ App Router travel agency assessment project. Premium, modern travel brand built with Tailwind CSS and GSAP (ScrollTrigger) animations. All data is mock/hardcoded — no backend or real APIs.
 
-> ![Screenshot placeholder](https://via.placeholder.com/1200x600?text=LuxTravel+Screenshot)
+> ![LuxTravel Screenshot](https://travel-agency-assessment.vercel.app/og-image.png)
 > *Add a screenshot of the homepage here.*
 
 ## Tech Stack
 
-- **Framework:** Next.js 14+ (App Router), TypeScript
+- **Framework:** Next.js 16 (App Router), TypeScript
 - **Styling:** Tailwind CSS
 - **Animations:** GSAP with ScrollTrigger plugin
 - **Fonts:** Inter (body), Playfair Display (headlines) via `next/font`
@@ -27,6 +31,10 @@ A complete Next.js 14+ App Router travel agency assessment project. Premium, mod
 8. **Testimonials** — Auto-playing carousel (4s, pause on hover) with GSAP fade transitions, manual prev/next arrows, 6 testimonials with gold avatar initials
 9. **ContactForm** — Two-column layout with company info and form; success toast on submit
 10. **Footer** — 4-column layout: logo/tagline/social, quick links, services, newsletter signup
+
+### Additional Features
+- **Sign In Modal** — Gold-outline Sign In button in Navbar opens a modal for existing customers (email/password, mock auth, success toast)
+- **Live Chat Widget** — Floating 💬 chatbot (bottom-right) with quick-reply chips for Flight, Hotel, Visa, Car queries and keyword-matched responses
 
 ### Service Pages
 - `/visa` — Visa search form + results grid
@@ -86,8 +94,8 @@ src/
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
-cd lustravel
+git clone https://github.com/Suleman-Sehar/travel-agency-assessment.git
+cd travel-agency-assessment
 
 # 2. Install dependencies
 npm install
@@ -105,13 +113,16 @@ npm run dev
 - `npm run start` — Start production server
 - `npm run lint` — Run ESLint
 
-## Deployment (Vercel)
+## Deployment
 
-1. Push your code to a GitHub repository.
-2. Import the repo in [Vercel](https://vercel.com).
-3. Vercel auto-detects Next.js — click Deploy.
-4. Add environment variables if needed (none required for this mock project).
-5. Your site is live on a `.vercel.app` domain.
+**Live on Vercel:** https://travel-agency-assessment.vercel.app
+
+### Deploy your own:
+1. Fork this repo
+2. Go to [vercel.com](https://vercel.com) → Import Project
+3. Select the forked repo
+4. Click Deploy (zero config — Next.js auto-detected)
+5. Live in ~2 minutes on a `.vercel.app` domain
 
 ## Assessment Context
 
